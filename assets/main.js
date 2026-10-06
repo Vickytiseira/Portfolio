@@ -141,4 +141,11 @@
     var upd = function () { var h = document.documentElement.scrollHeight - innerHeight; pb.style.transform = "scaleX(" + (h > 0 ? scrollY / h : 0) + ")"; };
     window.addEventListener("scroll", upd, { passive: true }); upd();
   }
+
+  /* ---------- Nav con fondo al hacer scroll ---------- */
+  (function () {
+    var nav = document.querySelector(".nav"); if (!nav) return;
+    var on = function () { nav.classList.toggle("is-scrolled", window.scrollY > 24); };
+    window.addEventListener("scroll", on, { passive: true }); on();
+  })();
 })();
