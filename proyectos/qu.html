@@ -1,137 +1,199 @@
 <!DOCTYPE html>
-<html lang="en" data-lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title data-en="Qu: Kiosk Self-Service | Ma. Victoria Tiseira" data-es="Qu: Kiosk Self-Service | Ma. Victoria Tiseira">Qu: Kiosk Self-Service | Ma. Victoria Tiseira</title>
-  <meta name="description" content="At Qu, a commerce platform used by restaurant chains with 20 to 2,500+ locations, I led the end-to-end redesign of the Kiosk Self-Service and also designed Web Ordering and Order Status.">
-  <meta name="author" content="Ma. Victoria Tiseira">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qu: Kiosk Self-Service | Ma. Victoria Tiseira</title>
+  <meta name="description" content="A flexible ordering experience across brands, menus and screen orientations. Case study by Ma. Victoria Tiseira, Product Designer.">
   <link rel="canonical" href="https://victoriatiseira.com/proyectos/qu.html">
-  <meta name="theme-color" content="#111110">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Qu: Kiosk Self-Service | Ma. Victoria Tiseira">
-  <meta property="og:description" content="At Qu, a commerce platform used by restaurant chains with 20 to 2,500+ locations, I led the end-to-end redesign of the Kiosk Self-Service and also designed Web Ordering and Order Status.">
-  <meta property="og:url" content="https://victoriatiseira.com/proyectos/qu.html">
   <meta property="og:site_name" content="Ma. Victoria Tiseira">
+  <meta property="og:title" content="Qu: Kiosk Self-Service | Ma. Victoria Tiseira">
+  <meta property="og:description" content="A flexible ordering experience across brands, menus and screen orientations. Case study by Ma. Victoria Tiseira, Product Designer.">
+  <meta property="og:url" content="https://victoriatiseira.com/proyectos/qu.html">
   <meta property="og:image" content="https://victoriatiseira.com/img/proyectos/qu/cover.jpg">
-  <meta property="og:image:width" content="1600">
-  <meta property="og:image:height" content="1200">
-  <meta name="twitter:image" content="https://victoriatiseira.com/img/proyectos/qu/cover.jpg">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#111110">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/style.css">
-  <script>(function(){var l=null;try{l=new URLSearchParams(location.search).get("lang")||localStorage.getItem("lang")}catch(e){}if(l!=="es"&&l!=="en"){var n=(navigator.languages&&navigator.languages[0])||navigator.language||"en";l=/^es/i.test(n)?"es":"en"}document.documentElement.dataset.lang=l;document.documentElement.lang=l})();</script>
+  <link rel="stylesheet" href="../assets/v2.css">
+  <style>:root { --case: #ff6b6b; }</style>
 </head>
 <body>
-
-  <header class="nav" id="nav">
-    <a class="nav__brand" href="../index.html">Victoria <em>Tiseira</em></a>
-    <nav class="nav__links" aria-label="Main navigation">
-      <a href="../index.html#work"><span class="en">Work</span><span class="es">Trabajos</span></a>
-      <a href="../index.html#experience"><span class="en">Experience</span><span class="es">Experiencia</span></a>
-      <a href="../index.html#services"><span class="en">Services</span><span class="es">Servicios</span></a>
-    </nav>
-    <div class="nav__right">
-      <div class="lang" role="group" aria-label="Language">
-        <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
-        <button type="button" data-set-lang="es" aria-pressed="false">ES</button>
-      </div>
-      <a class="nav__cta" href="#contact"><span class="dot"></span><span class="en">Get in touch</span><span class="es">Contacto</span></a>
-      <button class="nav__burger" id="navBurger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+  <header class="nav">
+    <div class="wrap">
+      <a class="nav__brand" href="../index.html">Victoria <em>Tiseira</em></a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="../index.html#work">Work</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a>
+      </nav>
     </div>
   </header>
-  <div class="mnav" id="mobileMenu" aria-hidden="true">
-    <a href="../index.html#work"><i>01</i><span class="en">Work</span><span class="es">Trabajos</span></a>
-    <a href="../index.html#experience"><i>02</i><span class="en">Experience</span><span class="es">Experiencia</span></a>
-    <a href="../index.html#services"><i>03</i><span class="en">Services</span><span class="es">Servicios</span></a>
-    <a href="#contact"><i>04</i><span class="en">Get in touch</span><span class="es">Contacto</span></a>
-  </div>
 
-  <main id="top" class="case">
-    <header class="case__hero">
-      <a class="case__back" href="../index.html#all-work">← <span class="en">Projects</span><span class="es">Proyectos</span></a>
-      <p class="eyebrow"><span>01</span><span><span class="en">Restaurant tech · Kiosk, web ordering & order status</span><span class="es">Restaurant tech · Kiosco, pedidos web y estado del pedido</span> · 2024/26</span></p>
-      <h1 class="case__title"><span class="en">Qu: Kiosk Self-Service</span><span class="es">Qu: Kiosco de autoservicio</span></h1>
-      <p class="en case__lead">At Qu, a commerce platform used by restaurant chains with 20 to 2,500+ locations, I led the end-to-end redesign of the Kiosk Self-Service and also designed Web Ordering and Order Status.</p><p class="es case__lead">En Qu, una plataforma de comercio que usan cadenas de restaurantes de 20 a más de 2.500 locales, lideré el rediseño end-to-end del Kiosco de autoservicio y también diseñé Web Ordering y Order Status.</p>
-      <dl class="case__meta"><div class="case__meta-item"><dt class="en">Status</dt><dt class="es">Estado</dt><dd><span class="en">Launched · live</span><span class="es">Lanzado · en uso</span></dd></div><div class="case__meta-item"><dt class="en">Role</dt><dt class="es">Rol</dt><dd><span class="en">Lead Product Designer</span><span class="es">Lead Product Designer</span></dd></div><div class="case__meta-item"><dt class="en">Company</dt><dt class="es">Empresa</dt><dd><span class="en">Qu, unified commerce platform for restaurants (USA)</span><span class="es">Qu, plataforma de comercio unificado para restaurantes (USA)</span></dd></div><div class="case__meta-item"><dt class="en">Tools</dt><dt class="es">Herramientas</dt><dd><span class="en">Figma, design systems, prototyping, Scrum</span><span class="es">Figma, design systems, prototipado, Scrum</span></dd></div><div class="case__meta-item"><dt class="en">Period</dt><dt class="es">Período</dt><dd><span class="en">May 2024 to Oct 2026</span><span class="es">Mayo 2024 a Oct 2026</span></dd></div></dl>
-    </header>
-    <figure class="case__cover"><img src="../img/proyectos/qu/cover.jpg" alt="Qu: Kiosk Self-Service" width="1600" height="1200" decoding="async"></figure>
-    <section class="case__body"><div class="case__block" data-reveal><h2 class="en case__h">Overview</h2><h2 class="es case__h">Resumen</h2><div><p class="en case__p">Qu is a commerce platform for restaurant chains with 20 to 2,500+ locations, mostly fast food and fast casual. It covers point of sale, kiosks, drive-thru, online ordering, kitchen displays and order status. At Qu I worked on three of those products: I led the end-to-end redesign of the Kiosk Self-Service, which this case focuses on, and also designed Web Ordering and Order Status. The kiosk is the touchscreen where guests browse the menu, customize items, use loyalty rewards and pay without waiting in line. The kiosk runs in portrait and landscape and is configured for each restaurant brand, so every screen had to work with very different menus, modifiers, loyalty programs and payment setups. I designed the full flow and every state along the way, and built the accessible design system behind it.</p><p class="es case__p">Qu es una plataforma de comercio para cadenas de restaurantes de 20 a más de 2.500 locales, sobre todo de comida rápida y fast-casual. Incluye punto de venta, kioscos, drive-thru, pedidos online, pantallas de cocina y estado del pedido. En Qu trabajé en tres de esos productos: lideré el rediseño end-to-end del Kiosco de autoservicio, en el que se centra este caso, y también diseñé Web Ordering y Order Status. El kiosco es la pantalla táctil donde los clientes recorren el menú, personalizan productos, usan sus recompensas y pagan sin hacer fila. El kiosco funciona en vertical y horizontal y se configura para cada marca, así que cada pantalla tenía que funcionar con menús, modificadores, programas de fidelidad y medios de pago muy distintos. Diseñé el flujo completo y cada estado del recorrido, y construí el design system accesible que lo sostiene.</p></div></div>
-        <div class="case__wide" data-reveal><h2 class="en case__h">The guest journey</h2><h2 class="es case__h">El recorrido del cliente</h2><ol class="flow"><li><span class="en">Start</span><span class="es">Inicio</span></li><li><span class="en">Browse</span><span class="es">Explorar</span></li><li><span class="en">Customize</span><span class="es">Personalizar</span></li><li><span class="en">Rewards</span><span class="es">Recompensas</span></li><li><span class="en">Review</span><span class="es">Revisar</span></li><li><span class="en">Pay</span><span class="es">Pagar</span></li></ol></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Start & menu</h2><h2 class="es case__h">Inicio y menú</h2><div><p class="en case__p">The attract screen invites guests to tap and order, with rewards sign-in one tap away. The menu adapts to the screen: top tabs and a promo banner in portrait, a category sidebar in landscape. The order bar stays fixed at the bottom with the guest's points and running total.</p><p class="es case__p">La pantalla de inicio invita a tocar y ordenar, con el acceso a recompensas a un toque. El menú se adapta a la pantalla: pestañas arriba y un banner de promoción en vertical, una barra lateral de categorías en horizontal. La barra del pedido queda fija abajo con los puntos del cliente y el total.</p></div></div>
-        <div class="krow krow--2" style="--cols:0.562fr 1.777fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/menu-v.jpg" alt="Portrait menu with promo banner" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Portrait menu with promo banner</span><span class="es">Menú vertical con banner de promoción</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/menu-h.jpg" alt="Landscape menu with category sidebar" width="1400" height="788" loading="lazy" decoding="async"><figcaption><span class="en">Landscape menu with category sidebar</span><span class="es">Menú horizontal con barra lateral de categorías</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Product cards</h2><h2 class="es case__h">Tarjetas de producto</h2><div><p class="en case__p">Cards show price, portion, calories and badges for limited-time items, diets and allergens. I designed them for the real world of a restaurant catalog: items without a photo get a neutral placeholder, and loading states keep the grid stable while images arrive.</p><p class="es case__p">Las tarjetas muestran precio, porción, calorías y etiquetas de tiempo limitado, dietas y alérgenos. Las diseñé para el catálogo real de un restaurante: los productos sin foto tienen un placeholder neutro, y los estados de carga mantienen la grilla estable mientras llegan las imágenes.</p></div></div>
-        <figure class="shot shot--narrow"><img src="../img/proyectos/qu/cards.jpg" alt="Product cards: with image, loading and missing image." width="1194" height="1472" loading="lazy" decoding="async"><figcaption><span class="en">Product cards: with image, loading and missing image.</span><span class="es">Tarjetas de producto: con imagen, cargando y sin imagen.</span></figcaption></figure>
-        <div class="case__block" data-reveal><h2 class="en case__h">Diet & allergen preferences</h2><h2 class="es case__h">Preferencias de dieta y alérgenos</h2><div><p class="en case__p">Guests can set dietary preferences and allergens once, and the menu keeps them highlighted. A confirmation shows they were saved, and the active filters stay visible next to the search, with a shortcut to edit them.</p><p class="es case__p">El cliente puede definir sus preferencias de dieta y alérgenos una sola vez, y el menú las mantiene resaltadas. Una confirmación avisa que se guardaron, y los filtros activos quedan visibles junto al buscador, con un acceso para editarlos.</p></div></div>
-        <div class="krow krow--3 krow--tall" style="--cols:0.562fr 0.562fr 0.562fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/pref-select.jpg" alt="1. Choose preferences" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">1. Choose preferences</span><span class="es">1. Elegir preferencias</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/pref-saved.jpg" alt="2. “Preferences Saved”" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">2. “Preferences Saved”</span><span class="es">2. “Preferencias guardadas”</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/pref-active.jpg" alt="3. Active filters next to search" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">3. Active filters next to search</span><span class="es">3. Filtros activos junto al buscador</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Search</h2><h2 class="es case__h">Búsqueda</h2><div><p class="en case__p">Search highlights the matching words in each result. When nothing matches, the empty state says what was searched and offers a way back to the menu instead of a dead end.</p><p class="es case__p">La búsqueda resalta las palabras que coinciden en cada resultado. Si no hay coincidencias, el estado vacío dice qué se buscó y ofrece volver al menú en lugar de un callejón sin salida.</p></div></div>
-        <div class="krow krow--2" style="--cols:1.297fr 0.562fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/search-found.jpg" alt="Matching word highlighted" width="1080" height="833" loading="lazy" decoding="async"><figcaption><span class="en">Matching word highlighted</span><span class="es">Palabra resaltada en el resultado</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/search-none.jpg" alt="No results, with a way back" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">No results, with a way back</span><span class="es">Sin resultados, con una salida</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Item customization</h2><h2 class="es case__h">Personalización de productos</h2><div><p class="en case__p">Items can have many groups of options (size, sauces, extras), some inside others, each with its own rules. Required groups are flagged up front, and options show price, calories and allergens. If a guest tries to add an item before completing a required group, the button explains what's missing and the group is highlighted, instead of a generic error.</p><p class="es case__p">Los productos pueden tener muchos grupos de opciones (tamaño, salsas, extras), algunos dentro de otros, cada uno con sus reglas. Los grupos obligatorios se marcan desde el principio, y cada opción muestra precio, calorías y alérgenos. Si el cliente intenta agregar el producto sin completar un grupo obligatorio, el botón explica qué falta y el grupo se resalta, en lugar de un error genérico.</p></div></div>
-        <div class="krow krow--2 krow--tall" style="--cols:0.562fr 0.562fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/item-ok.jpg" alt="Required group completed" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Required group completed</span><span class="es">Grupo obligatorio completo</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/item-error.jpg" alt="Missing group highlighted" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Missing group highlighted</span><span class="es">Grupo faltante resaltado</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Interaction rules</h2><h2 class="es case__h">Reglas de interacción</h2><div><p class="en case__p">I documented every selection rule as a reusable pattern so engineering could apply it to any brand's menu: minimums, maximums and items that are always included. Each limit answers at the point of interaction with a short message: “At least 1 Required”, “Item Limit Reached”, “Item Can't Be Removed”.</p><p class="es case__p">Documenté cada regla de selección como un patrón reutilizable para que desarrollo pudiera aplicarla al menú de cualquier marca: mínimos, máximos e ingredientes que siempre vienen incluidos. Cada límite responde en el lugar de la interacción con un mensaje corto: “Se requiere al menos 1”, “Límite alcanzado”, “Este ingrediente no se puede quitar”.</p></div></div>
-        <figure class="shot shot--narrow"><img src="../img/proyectos/qu/spec-rules.jpg" alt="Spec: minimums, maximums and included items." width="660" height="704" loading="lazy" decoding="async"><figcaption><span class="en">Spec: minimums, maximums and included items.</span><span class="es">Spec: mínimos, máximos e ingredientes incluidos.</span></figcaption></figure>
-        <div class="case__block" data-reveal><h2 class="en case__h">Loyalty & rewards</h2><h2 class="es case__h">Fidelidad y recompensas</h2><div><p class="en case__p">Signed-in guests are welcomed by name and offered their available rewards before ordering. In their profile, each reward shows its state: ready to redeem, added to the order, or limited to one per order. Guests with accounts in several brands choose which one to use.</p><p class="es case__p">Los clientes que inician sesión reciben una bienvenida con su nombre y sus recompensas disponibles antes de ordenar. En el perfil, cada recompensa muestra su estado: lista para canjear, agregada al pedido o limitada a una por pedido. Quienes tienen cuenta en varias marcas eligen cuál usar.</p></div></div>
-        <div class="krow krow--3 krow--tall" style="--cols:0.562fr 0.562fr 0.562fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/loy-welcome.jpg" alt="Welcome back with rewards" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Welcome back with rewards</span><span class="es">Bienvenida con recompensas</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/loy-rewards.jpg" alt="Reward states in the profile" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Reward states in the profile</span><span class="es">Estados de las recompensas en el perfil</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/loy-brand.jpg" alt="Choosing a loyalty account" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Choosing a loyalty account</span><span class="es">Elegir la cuenta de fidelidad</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">My order</h2><h2 class="es case__h">Mi pedido</h2><div><p class="en case__p">The order panel lists each item with its modifiers, quantity, edit and remove. Removing an item asks for confirmation and shows a short “Item Removed” message so guests know it worked.</p><p class="es case__p">El panel del pedido muestra cada producto con sus modificadores, cantidad, editar y quitar. Quitar un producto pide confirmación y muestra un mensaje corto de “Producto eliminado” para que el cliente sepa que funcionó.</p></div></div>
-        <div class="krow krow--1" style="--cols:1.777fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/cart-removed.jpg" alt="Order panel with “Item Removed”" width="1400" height="788" loading="lazy" decoding="async"><figcaption><span class="en">Order panel with “Item Removed”</span><span class="es">Panel del pedido con “Producto eliminado”</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Checkout</h2><h2 class="es case__h">Checkout</h2><div><p class="en case__p">Checkout brings together dine-in or to-go, the order and a “Complete Your Meal” row to add drinks and sides. Rewards are explicit: the discount on the total, or the item marked FREE when the reward applies to a specific product.</p><p class="es case__p">El checkout reúne la elección de comer acá o para llevar, el pedido y una fila de “Completá tu comida” para sumar bebidas y acompañamientos. Las recompensas son explícitas: el descuento sobre el total, o el producto marcado como GRATIS cuando la recompensa aplica a uno en particular.</p></div></div>
-        <div class="krow krow--2" style="--cols:1.777fr 0.562fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/co-meal.jpg" alt="Landscape checkout with “Complete Your Meal”" width="1400" height="788" loading="lazy" decoding="async"><figcaption><span class="en">Landscape checkout with “Complete Your Meal”</span><span class="es">Checkout horizontal con “Completá tu comida”</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/co-free.jpg" alt="Reward applied: item marked FREE" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Reward applied: item marked FREE</span><span class="es">Recompensa aplicada: producto GRATIS</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Payment</h2><h2 class="es case__h">Pago</h2><div><p class="en case__p">The last step shows an optional charity round-up, promo codes, a clear breakdown and payment methods that change with each location: credit card, gift card, scan to pay or cash at the register. The total is repeated on the button, and the flow ends with the card reader instructions and an order number to pick up the food.</p><p class="es case__p">El último paso muestra una donación opcional por redondeo, códigos promocionales, un desglose claro y medios de pago que cambian según el local: tarjeta de crédito, gift card, pago con QR o efectivo en caja. El total se repite en el botón, y el flujo termina con las instrucciones del lector de tarjetas y un número de pedido para retirar la comida.</p></div></div>
-        <div class="krow krow--3 krow--tall" style="--cols:0.562fr 0.562fr 0.562fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/pay-method.jpg" alt="Payment method" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Payment method</span><span class="es">Medio de pago</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/pay-tap.jpg" alt="“Tap or insert your card”" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">“Tap or insert your card”</span><span class="es">“Acercá o insertá tu tarjeta”</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/done.jpg" alt="Order confirmed with pickup number" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Order confirmed with pickup number</span><span class="es">Pedido confirmado con número de retiro</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Other states I designed</h2><h2 class="es case__h">Otros estados que diseñé</h2><div><p class="en case__p">Every step has its edge cases. A few of them: a required dining option, the table number, starting over, a reward that can't be applied yet, no rewards available and processing payment.</p><p class="es case__p">Cada paso tiene sus casos borde. Algunos de ellos: la opción obligatoria de comer acá o para llevar, el número de mesa, empezar de nuevo, una recompensa que todavía no se puede aplicar, sin recompensas disponibles y pago en proceso.</p></div></div>
-        <div class="krow krow--3 krow--tall" style="--cols:0.562fr 0.562fr 0.562fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/st-dining.jpg" alt="Dining option required" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Dining option required</span><span class="es">Opción de consumo obligatoria</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/st-table.jpg" alt="Table number" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Table number</span><span class="es">Número de mesa</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/st-startover.jpg" alt="Start over?" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Start over?</span><span class="es">¿Empezar de nuevo?</span></figcaption></figure></div>
-        <div class="krow krow--3 krow--tall" style="--cols:0.562fr 0.562fr 0.562fr" data-reveal><figure class="kshot"><img src="../img/proyectos/qu/st-reward.jpg" alt="Reward not applied yet" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Reward not applied yet</span><span class="es">Recompensa sin aplicar</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/st-empty.jpg" alt="No rewards available" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">No rewards available</span><span class="es">Sin recompensas</span></figcaption></figure><figure class="kshot"><img src="../img/proyectos/qu/st-processing.jpg" alt="Processing payment" width="720" height="1280" loading="lazy" decoding="async"><figcaption><span class="en">Processing payment</span><span class="es">Procesando el pago</span></figcaption></figure></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Design system & accessibility</h2><h2 class="es case__h">Design system y accesibilidad</h2><div><p class="en case__p">I built a scalable, accessible design system so the kiosk stays consistent across brands and orientations, and every new state reuses existing components. I applied WCAG accessibility standards across kiosk and web ordering: large touch targets, readable contrast, and messages that say what happened and what to do next. </p><p class="es case__p">Construí un design system escalable y accesible para que el kiosco sea consistente entre marcas y orientaciones, y cada estado nuevo reutilice componentes existentes. Apliqué los estándares de accesibilidad WCAG en el kiosco y en los pedidos web: áreas táctiles grandes, contraste legible y mensajes que dicen qué pasó y qué hacer. </p></div></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Outcome</h2><h2 class="es case__h">Resultado</h2><div><p class="en case__p">The redesigned kiosk launched and is live: guests use it to order in restaurants running on Qu. The interaction rules and components I documented became the reference engineering used to configure each brand's menu.</p><p class="es case__p">El kiosco rediseñado se lanzó y está en uso: los clientes ordenan con él en los restaurantes que funcionan con Qu. Las reglas de interacción y los componentes que documenté se convirtieron en la referencia que usó desarrollo para configurar el menú de cada marca.</p></div></div>
-        <div class="case__block" data-reveal><h2 class="en case__h">Also at Qu: Web Ordering & Order Status</h2><h2 class="es case__h">También en Qu: Web Ordering y Order Status</h2><div><p class="en case__p">Beyond the kiosk, I led the Digital Design team for Modern Web Ordering, the app guests use to order online for pickup or delivery, setting its design direction with Product and Engineering. I also designed Order Status: the screens inside the restaurant that show guests whether their order is being prepared or ready to pick up.</p><p class="es case__p">Además del kiosco, lideré el equipo de Diseño Digital de Modern Web Ordering, la app con la que los clientes piden online para retirar o con delivery, definiendo su dirección de diseño junto a Producto e Ingeniería. También diseñé Order Status: las pantallas dentro del restaurante que muestran a los clientes si su pedido se está preparando o ya está listo para retirar.</p></div></div>
+  <main>
+    <section class="case-hero">
+      <div class="wrap grid">
+        <p class="label" style="grid-column:1/-1"><b>01</b> &nbsp;Case study</p>
+        <h1 class="case-hero__title">Qu: Kiosk <i>Self-Service</i></h1>
+        <p class="case-hero__sub">A flexible ordering experience across brands, menus and screen orientations.</p>
+        <dl class="facts">
+          <div><dt>Product</dt><dd>Self-service ordering kiosk, part of Qu's unified commerce platform</dd></div>
+          <div><dt>Industry</dt><dd>Restaurant tech, US chains with 20 to 2,500+ locations</dd></div>
+          <div><dt>My role</dt><dd>Lead Product Designer: UX and UI end to end</dd></div>
+          <div><dt>Team</dt><dd>Product owned scope and priorities. Engineering owned implementation and brand configuration</dd></div>
+          <div><dt>Timeline</dt><dd>May 2024 to Oct 2026</dd></div>
+        </dl>
+      </div>
+      <div class="wrap"><div class="case-cover"><img src="../img/proyectos/qu/cover.jpg" alt="Qu kiosk screens in portrait and landscape" width="1600" height="1200"></div></div>
     </section>
-    <nav class="case__next" aria-label="More projects">
-      <a href="walk-safe.html" class="case__nav case__nav--prev"><span>← <span class="en">Previous</span><span class="es">Anterior</span></span><strong><span class="en">Walk Safe</span><span class="es">Walk Safe</span></strong></a>
-      <a href="concourse-copilot.html" class="case__nav case__nav--next"><span><span class="en">Next</span><span class="es">Siguiente</span> →</span><strong><span class="en">Concourse Copilot</span><span class="es">Concourse Copilot</span></strong></a>
+
+    <section class="blk">
+      <div class="wrap grid">
+        <div class="blk__side"><p class="label"><b>01</b> &nbsp;The problem</p></div>
+        <div class="blk__main">
+          <p class="blk__lead">Every brand configures the kiosk differently: its menu, its modifier rules, its loyalty program, its payment methods and the screen orientation.</p>
+          <p>An audit of the existing experience showed four problems: complex menus that were hard to scan, inconsistent screens across brands and orientations, loyalty disconnected from the order, and dead ends with no way forward.</p>
+        </div>
+        <div class="cons">
+          <div><strong>First-time guests</strong><span>Ordering standing up, in a busy restaurant.</span></div>
+          <div><strong>Menus out of our control</strong><span>Some items arrive without a photo.</span></div>
+          <div><strong>Hardware varies</strong><span>Payment methods change by location.</span></div>
+          <div><strong>Two orientations</strong><span>Every screen works in portrait and landscape.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blk">
+      <div class="wrap grid">
+        <div class="blk__side"><p class="label"><b>02</b> &nbsp;Key decisions</p></div>
+        <div class="blk__main"><p class="blk__lead">Five decisions shaped the experience. Each one traded something away.</p></div>
+      </div>
+    </section>
+
+    <article class="dec wrap grid">
+      <div class="dec__txt">
+        <span class="dec__num">1</span>
+        <h2 class="dec__title">One layout logic, two orientations</h2>
+        <p class="dec__body">Portrait uses top tabs and a promo banner; landscape uses a category sidebar. The order bar stays fixed at the bottom in both.</p>
+        <p class="dec__trade"><b>Tradeoff</b>A single layout would have been cheaper to build but would waste space in one orientation. We maintained two navigation patterns so the menu reads naturally on each screen.</p>
+      </div>
+      <div class="dec__media">
+        <div class="pair">
+          <figure><img src="../img/proyectos/qu/menu-v.jpg" alt="Portrait menu with top tabs and promo banner" width="720" height="1280" ><figcaption>Portrait</figcaption></figure>
+          <figure><img src="../img/proyectos/qu/menu-h.jpg" alt="Landscape menu with category sidebar" width="1400" height="788" ><figcaption>Landscape</figcaption></figure>
+        </div>
+      </div>
+    </article>
+
+    <article class="dec wrap grid">
+      <div class="dec__txt">
+        <span class="dec__num">2</span>
+        <h2 class="dec__title">Errors at the point of interaction, not at checkout</h2>
+        <p class="dec__body">Required groups are flagged up front. If a guest adds an item too early, the button explains what's missing and the group is highlighted. Limits answer in place: “At least 1 Required”, “Item Limit Reached”, “Item Can't Be Removed”.</p>
+        <p class="dec__trade"><b>Tradeoff</b>Many more states to design and document, in exchange for removing the generic error that sent guests back without knowing why.</p>
+      </div>
+      <div class="dec__media">
+        <div class="pair pair--tall">
+          <figure><img src="../img/proyectos/qu/item-ok.jpg" alt="Item customization with required group completed" width="720" height="1280" ><figcaption>Required group completed</figcaption></figure>
+          <figure><img src="../img/proyectos/qu/item-error.jpg" alt="Missing required group highlighted" width="720" height="1280" ><figcaption>Missing group highlighted</figcaption></figure>
+        </div>
+      </div>
+    </article>
+
+    <article class="dec wrap grid">
+      <div class="dec__txt">
+        <span class="dec__num">3</span>
+        <h2 class="dec__title">Rules as a system, not per brand</h2>
+        <p class="dec__body">I documented every selection rule (minimums, maximums, included items) as a reusable pattern engineering could apply to any menu.</p>
+        <p class="dec__trade"><b>Tradeoff</b>Less room for one-off behavior, in exchange for menus that behave predictably and can be configured from existing patterns.</p>
+      </div>
+      <div class="dec__media">
+        <figure class="solo-tall" style="max-width:460px"><img src="../img/proyectos/qu/spec-rules.jpg" alt="Specification of minimums, maximums and included items" width="660" height="704" ><figcaption>Interaction rules spec</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="dec wrap grid">
+      <div class="dec__txt">
+        <span class="dec__num">4</span>
+        <h2 class="dec__title">Accessibility as part of every state</h2>
+        <p class="dec__body">Large touch targets for guests ordering standing up, readable contrast in a brightly lit restaurant, and messages that say what happened and what to do next.</p>
+        <p class="dec__trade"><b>Tradeoff</b>Visual restraint sometimes gave way to clarity, as in the explicit limit messages and the highlighted required groups.</p>
+      </div>
+      <div class="dec__media">
+        <div class="pair pair--tall">
+          <figure><img src="../img/proyectos/qu/st-dining.jpg" alt="Dining option required message" width="720" height="1280" ><figcaption>Dining option required</figcaption></figure>
+          <figure><img src="../img/proyectos/qu/search-none.jpg" alt="Search with no results and a way back to the menu" width="720" height="1280" ><figcaption>No results, with a way back</figcaption></figure>
+        </div>
+      </div>
+    </article>
+
+    <article class="dec wrap grid">
+      <div class="dec__txt">
+        <span class="dec__num">5</span>
+        <h2 class="dec__title">Design for the real catalog</h2>
+        <p class="dec__body">Product cards handle items without photos with a neutral placeholder, and loading states keep the grid stable while images arrive.</p>
+        <p class="dec__trade"><b>Tradeoff</b>Cards had to look good with the worst content a brand might send, not only with the best.</p>
+      </div>
+      <div class="dec__media">
+        <figure class="solo-tall" style="max-width:420px"><img src="../img/proyectos/qu/cards.jpg" alt="Product cards with image, loading and missing image" width="1194" height="1472" ><figcaption>With image, loading and missing image</figcaption></figure>
+      </div>
+    </article>
+
+    <section class="blk">
+      <div class="wrap grid">
+        <div class="blk__side"><p class="label"><b>03</b> &nbsp;The solution</p></div>
+        <div class="blk__main"><p class="blk__lead">The guest journey in six steps, live in restaurants running on Qu.</p></div>
+        <div class="journey">
+          <figure><img src="../img/proyectos/qu/menu-v.jpg" alt="" width="720" height="1280" ><figcaption><b>Browse</b>Menu and promos</figcaption></figure>
+          <figure><img src="../img/proyectos/qu/item-ok.jpg" alt="" width="720" height="1280" ><figcaption><b>Customize</b>Options and rules</figcaption></figure>
+          <figure><img src="../img/proyectos/qu/loy-rewards.jpg" alt="" width="720" height="1280" ><figcaption><b>Rewards</b>Loyalty in the order</figcaption></figure>
+          <figure><img src="../img/proyectos/qu/co-free.jpg" alt="" width="720" height="1280" ><figcaption><b>Review</b>Reward applied</figcaption></figure>
+          <figure><img src="../img/proyectos/qu/pay-method.jpg" alt="" width="720" height="1280" ><figcaption><b>Pay</b>Methods per location</figcaption></figure>
+          <figure><img src="../img/proyectos/qu/done.jpg" alt="" width="720" height="1280" ><figcaption><b>Done</b>Pickup number</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="blk">
+      <div class="wrap grid">
+        <div class="blk__side"><p class="label"><b>04</b> &nbsp;Collaboration</p></div>
+        <div class="blk__main">
+          <p class="blk__lead">I delivered the flows, specs and the interaction rules document that engineering used to configure each brand's menu.</p>
+          <p>I worked on the design system alongside phases 2 to 4 of the roadmap, so every new state reused existing components. I co-designed the kiosk's accessible design system with another designer, defining its components, patterns and accessibility principles. Engineering then implemented it. I also designed Web Ordering and Order Status within the same platform.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact">
+      <div class="wrap grid">
+        <p class="label" style="grid-column:1/-1;margin-bottom:24px"><b>05</b> &nbsp;Impact</p>
+        <p class="impact__live">The redesigned kiosk launched and is live: guests order with it in restaurants running on Qu.</p>
+        <div class="kpis">
+          <div class="kpi"><p class="kpi__tag">Proposed target</p><p class="kpi__num">−18%</p><p class="kpi__what">Time to complete an order</p><p class="kpi__why">Shorter lines for guests, more orders per hour for the restaurant.</p></div>
+          <div class="kpi"><p class="kpi__tag">Proposed target</p><p class="kpi__num">+10 pp</p><p class="kpi__what">Order completion rate</p><p class="kpi__why">Fewer abandoned orders and less staff help at the kiosk.</p></div>
+          <div class="kpi"><p class="kpi__tag">Proposed target</p><p class="kpi__num">−20%</p><p class="kpi__what">Customization errors</p><p class="kpi__why">Orders that match what the guest wanted, fewer remakes in the kitchen.</p></div>
+        </div>
+        <p class="impact__note">These are proposed success targets for the redesigned experience, not measured outcomes.</p>
+      </div>
+    </section>
+
+    <section class="learn">
+      <div class="wrap grid"><q>In a configurable product, the design work is the rules, not the screens.</q></div>
+    </section>
+
+    <nav class="next" aria-label="Next case">
+      <div class="wrap"><a href="concourse-copilot.html"><span class="label">Next case</span><span class="serif">Concourse <i>Copilot</i></span></a></div>
     </nav>
   </main>
 
-  <footer class="footer" id="contact">
-    <p class="en footer__hook">Have a project in mind?</p><p class="es footer__hook">¿Tenés un proyecto en mente?</p>
-    <div class="contact">
-      <a class="contact__row" href="mailto:victoriatiseira1@gmail.com">
-        <span class="contact__label">Email</span>
-        <span class="contact__value">victoriatiseira1@gmail.com</span>
-        <span class="contact__arrow" aria-hidden="true">↗</span>
-      </a>
-      <a class="contact__row" href="https://wa.me/5493412112722" target="_blank" rel="noopener">
-        <span class="contact__label">WhatsApp</span>
-        <span class="contact__value">+54 341 211-2722</span>
-        <span class="contact__arrow" aria-hidden="true">↗</span>
-      </a>
-    </div>
-    <div class="footer__grid">
-      <div class="footer__col">
-        <p class="en footer__col-title">About</p><p class="es footer__col-title">Sobre mí</p>
-        <p>UX/UI Designer · Product Designer</p>
-        <p class="en">Argentina · Remote worldwide</p><p class="es">Argentina · Remoto para todo el mundo</p>
+  <footer class="contact" id="contact" style="padding-top:64px">
+    <div class="wrap grid">
+      <div class="contact__row" style="margin-top:0">
+        <span><a href="mailto:victoriatiseira1@gmail.com">victoriatiseira1@gmail.com</a></span>
+        <span><a href="https://www.linkedin.com/in/maria-victoria-tiseira/">LinkedIn</a> · <a href="https://wa.me/5493412112722">WhatsApp</a></span>
+        <span>© 2026 Ma. Victoria Tiseira</span>
       </div>
-      <nav class="footer__col" aria-label="Social">
-        <p class="en footer__col-title">Social</p><p class="es footer__col-title">Redes</p>
-        <a href="https://www.linkedin.com/in/maria-victoria-tiseira/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://wa.me/5493412112722" target="_blank" rel="noopener">WhatsApp</a>
-      </nav>
-      <nav class="footer__col" aria-label="Footer">
-        <p class="en footer__col-title">Menu</p><p class="es footer__col-title">Menú</p>
-        <a href="../index.html#work"><span class="en">Work</span><span class="es">Trabajos</span></a>
-        <a href="../index.html#experience"><span class="en">Experience</span><span class="es">Experiencia</span></a>
-        <a href="../index.html#services"><span class="en">Services</span><span class="es">Servicios</span></a>
-      </nav>
     </div>
-    <div class="footer__meta">
-      <p>©<span data-year>2026</span> Ma. Victoria Tiseira</p>
-      <p class="en">All rights reserved</p><p class="es">Todos los derechos reservados</p>
-    </div>
-    <span class="footer__giant" aria-hidden="true">Victoria<em>Tiseira</em></span>
   </footer>
-  <script src="../assets/main.js"></script>
 </body>
 </html>
